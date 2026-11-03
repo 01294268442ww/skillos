@@ -1,0 +1,4 @@
+-r requirements.txt
+
+# Official WebSearchTool's key-free search backend is optional upstream.
+duckduckgo-search>=6.0

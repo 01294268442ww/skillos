@@ -1,0 +1,10 @@
+{
+  "task": "请为复现 HyperSkill 核对官方固定提交 a34978aa7439d2eff7ccc3d2ad5372b34d285bd5 的运行要求。请实际访问以下两个公开文件，不要仅凭已有知识回答：https://api.github.com/repos/rux001/HyperSkill/contents/environment.yml?ref=a34978aa7439d2eff7ccc3d2ad5372b34d285bd5 和 https://api.github.com/repos/rux001/HyperSkill/contents/requirements.txt?ref=a34978aa7439d2eff7ccc3d2ad5372b34d285bd5 。请用中文列出：(1) Conda环境指定的Python版本；(2) numpy、networkx、openai三个pip依赖的最低版本；(3) 对应的两个来源链接。完成核实后提交最终答案。",
+  "source_urls": [
+    "https://api.github.com/repos/rux001/HyperSkill/contents/environment.yml?ref=a34978aa7439d2eff7ccc3d2ad5372b34d285bd5",
+    "https://api.github.com/repos/rux001/HyperSkill/contents/requirements.txt?ref=a34978aa7439d2eff7ccc3d2ad5372b34d285bd5"
+  ],
+  "task_id": "step5-frozen-milestones-functional-001",
+  "kind": "engineering_functional_acceptance_not_benchmark",
+  "scope_note": "Fresh execution instance for step5, freeze task-only milestones before execution; checker and extraction are separately billed maintenance."
+}

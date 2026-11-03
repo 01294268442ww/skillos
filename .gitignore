@@ -218,3 +218,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Imported HyperSkill runtime artifacts and datasets
+.env
+__pycache__/
+*.pyc
+storage/
+logs/
+results/
+downloads/
+*.egg-info/
+
+# datasets (download separately, see README)
+data/gaia/
+data/webwalkerqa/*.jsonl
+xbench-evals-main/
+
+# macOS metadata
+.DS_Store
+._*
