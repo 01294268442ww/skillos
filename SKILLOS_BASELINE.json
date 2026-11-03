@@ -6,7 +6,7 @@
   "source_working_branch": "hyperskill-step5-checker",
   "target_repository": "/home/ubuntu/skillos",
   "target_initial_head": "effa75ab29260ee3f53a4774dca292637ff92714",
-  "target_branch": "baseline/hyperskill-step5",
+  "target_branch": "main",
   "migrated_steps": [
     2,
     3,
@@ -90,5 +90,15 @@
     "database": "/home/ubuntu/hyperskill-migration-backups/evidence-before-migration-20261103.sqlite3",
     "results": "/home/ubuntu/hyperskill-migration-backups/results-before-migration-20261103.tar.gz"
   },
-  "remote_push_performed": false
+  "initial_copy_remote_push_performed": false,
+  "branching_starts_at_step": 6,
+  "branch_correction": {
+    "reason": "User clarified that implementation branches begin at item6, not during migration.",
+    "premature_branch": "baseline/hyperskill-step5",
+    "preserved_implementation_commit": "20b82335b5f4f7e44fb67948c38d217e82fe5296",
+    "current_branch": "main",
+    "business_code_changed": false,
+    "evidence_database_changed": false,
+    "value_policy_changed": false
+  }
 }
